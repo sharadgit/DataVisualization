@@ -1,0 +1,197 @@
+﻿
+/*Pie Chart Styles*/
+.arc path {
+	stroke: #fff;
+}
+
+
+/*Choropleth Styles*/
+.map-svg-component {
+	background-color: silver;
+}
+
+.counties {
+	fill: none;
+}
+
+.states {
+	fill: none;
+	stroke: #fff;
+	stroke-linejoin: round;
+}
+
+.q0-9 {
+	fill: rgb(247,251,255);
+}
+
+.q1-9 {
+	fill: rgb(222,235,247);
+}
+
+.q2-9 {
+	fill: rgb(198,219,239);
+}
+
+.q3-9 {
+	fill: rgb(158,202,225);
+}
+
+.q4-9 {
+	fill: rgb(107,174,214);
+}
+
+.q5-9 {
+	fill: rgb(66,146,198);
+}
+
+.q6-9 {
+	fill: rgb(33,113,181);
+}
+
+.q7-9 {
+	fill: rgb(8,81,156);
+}
+
+.q8-9 {
+	fill: rgb(8,48,107);
+}
+
+
+/*Bar Chart Styles*/
+.bar {
+	fill: steelblue;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.fieldset {
+	border: 1px solid;
+	width: 600px;
+}
+
+/*Scatter Plot Styles*/
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+
+/*Common Styles*/
+body {
+  font: 10px helvetica;
+}
+
+p {
+    font-family:"Times New Roman";
+    font-size:  14px;
+    text-indent: 50px;
+}
+
+h1 {
+    font-size: 2.875em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    clear: both;
+}
+
+legend {
+	font-size: small;
+	font-weight: bold;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.styleBreak {
+	clear: both;
+}
+
+/*Article Specific*/
+
+.page {
+    padding-bottom: 1.875em;
+    padding-top: 1.875em;
+}
+
+.page {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 90em;
+}
+
+.articleAuthor {
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+    margin-top: 3em;
+}
+
+.piechart {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
+
+.chartTitle {
+    text-align: center;
+}
+
+.datasource {
+    text-align: center;
+}
+
+/*ID Specific*/
+/*#scatterCookIntMedNPI {
+	width: 500px;
+	float: left;
+}
+
+#bubbleHCPCSIntMed {
+	float: left;
+}*/
+
+#piechartBudget {
+	width: 900px;
+    height: 460px;
+}
+
+#choroUSCounties {
+	width: 900px;
+}
+
+#bubbleSpecialtyUS {
+	width: 900px;
+}
+
+#bubbleHCPCSIntMed {    
+	width: 900px;
+}
